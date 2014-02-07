@@ -1085,7 +1085,7 @@ function BimSurfer() {
 	this.setAllWallsTransparent = function(factor) {
 	
 		var sceneData = othis.scene.data();
-		var index = sceneData.ifcTypes.indexOf('WallStandardCase');
+		var index = sceneData.ifcTypes.indexOf('IfcWallStandardCase');
 		var wallCase = sceneData.ifcTypes[index];
 		var wallNode = othis.scene.findNode(wallCase.toLowerCase());
 
